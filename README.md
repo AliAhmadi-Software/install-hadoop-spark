@@ -118,6 +118,3 @@ This guide provides step-by-step instructions to install and configure Hadoop an
 - Scripts must be run with appropriate permissions.
 
 ---
-
-## License
-This guide and accompanying scripts are provided under the MIT License. Use at your own risk.
