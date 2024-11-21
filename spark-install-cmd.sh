@@ -53,7 +53,19 @@ start-worker.sh spark://localhost:7077
 #Visit: http://localhost:8080
 #Visit: http://localhost:8081
 
-#10. Stop Spark
+#10. Run Spark Shell
+spark-shell
+
+#12. Test pyspark
+pyspark
+#Output: >>> (your command line is Ready)
+
+data = [1, 2, 3, 4, 5]
+rdd = sc.parallelize(data)
+print(rdd.collect())
+#Output: [1, 2, 3, 4, 5]
+
+#13. Stop Spark
 stop-master.sh
 
 stop-worker.sh
